@@ -64,7 +64,7 @@ function playGame() {
     }
   }
 
-  playRound(getHumanChoice(), "rock");
+  playRound(getHumanChoice(), getComputerChoice());
   playRound(getHumanChoice(), getComputerChoice());
   playRound(getHumanChoice(), getComputerChoice());
   playRound(getHumanChoice(), getComputerChoice());
