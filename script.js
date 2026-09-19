@@ -59,8 +59,6 @@ function playGame() {
         console.log('You lost! Rock beats Scissors');
         computerScore += 1;
         break;
-      default:
-        console.log('Cases are not ran');
     }
   }
 
